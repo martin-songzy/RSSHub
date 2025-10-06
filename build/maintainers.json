@@ -507,6 +507,9 @@
   "/alternativeto/software/:name/:routeParams?": [
     "JimenezLi"
   ],
+  "/altotrain/:language?": [
+    "elibroftw"
+  ],
   "/amazfitwatchfaces/:device/:sort/:searchParams?": [
     "nczitzk"
   ],
@@ -1547,6 +1550,9 @@
   ],
   "/chinathinktanks/:id": [
     "Aeliu"
+  ],
+  "/chinatimes/:category?": [
+    "KingJem"
   ],
   "/chinaventure/news/:id?": [
     "yuxinliu-alex"

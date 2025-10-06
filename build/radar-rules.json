@@ -5129,6 +5129,21 @@
       }
     ]
   },
+  "altotrain.ca": {
+    "_name": "Alto - Toronto-Québec City High-Speed Rail Network",
+    ".": [
+      {
+        "title": "Alto News",
+        "docs": "https://docs.rsshub.app/routes/travel",
+        "source": [
+          "/:language",
+          "/:language/news",
+          "/:language/nouvelles"
+        ],
+        "target": "/altotrain/:language"
+      }
+    ]
+  },
   "amazfitwatchfaces.com": {
     "_name": "Amazfitwatchfaces",
     ".": [
@@ -10833,6 +10848,20 @@
           "/CreditResearch/:category"
         ],
         "target": "/chinaratingsparams=>{const category=params.category;return`/chinaratings/CreditResearch${category?`/${category}`:\"\"}`}"
+      }
+    ]
+  },
+  "chinatimes.com": {
+    "_name": "中時新聞網",
+    "www": [
+      {
+        "title": "分類",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/:category/",
+          "/"
+        ],
+        "target": "/chinatimes/:category?"
       }
     ]
   },
