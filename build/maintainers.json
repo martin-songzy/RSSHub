@@ -3287,6 +3287,9 @@
     "zoenglinghou",
     "pseudoyu"
   ],
+  "/google/play/:id/:lang?": [
+    "surwall"
+  ],
   "/google/research": [
     "Levix",
     "cscnk52"
@@ -6366,6 +6369,9 @@
     "AiraNadih",
     "DIYgod",
     "hyoban"
+  ],
+  "/picnob.info/user/:id/:type?": [
+    "TonyRL"
   ],
   "/picuki/profile/:id/:type?/:functionalFlag?": [
     "hoilc",
