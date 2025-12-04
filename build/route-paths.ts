@@ -405,6 +405,7 @@ export type RoutePath =
   | `/bupt/jwc/:type`
   | `/bupt/rczp`
   | `/bupt/scss/tzgg`
+  | `/bwsg*`
   | `/byau/news/:type_id`
   | `/byteclicks/`
   | `/byteclicks/tag/:tag`
@@ -2565,6 +2566,7 @@ export type RoutePath =
   | `/substack/subscribe/:user`
   | `/supchina/`
   | `/supchina/podcasts`
+  | `/supercell/:game/blog/:locale?`
   | `/surfshark/blog/:category{.+}?`
   | `/sustainabilitymag/articles`
   | `/sustech/bidding`

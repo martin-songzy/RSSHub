@@ -1227,6 +1227,9 @@
   "/bupt/scss/tzgg": [
     "ziri2004"
   ],
+  "/bwsg*": [
+    "sk22"
+  ],
   "/byau/news/:type_id": [
     "ueiu"
   ],
@@ -7856,6 +7859,9 @@
   ],
   "/supchina/podcasts": [
     "nczitzk"
+  ],
+  "/supercell/:game/blog/:locale?": [
+    "fishyo"
   ],
   "/surfshark/blog/:category{.+}?": [
     "nczitzk"
