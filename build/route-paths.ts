@@ -974,7 +974,6 @@ export type RoutePath =
   | `/followin/tag/:tagId/:lang?`
   | `/followin/topic/:topicId/:lang?`
   | `/foodtalks/`
-  | `/foodtalks/news/tag/:tagId`
   | `/foreignaffairs/rss`
   | `/foresightnews/`
   | `/foresightnews/article`
