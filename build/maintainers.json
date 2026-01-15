@@ -2251,6 +2251,9 @@
   "/diershoubing/news": [
     "wushijishan"
   ],
+  "/digg/community/:community": [
+    "TonyRL"
+  ],
   "/digitalcameraworld/news": [
     "EthanWng97"
   ],
@@ -6127,6 +6130,12 @@
   ],
   "/nowcoder/experience/:tagId": [
     "huyyi"
+  ],
+  "/nowcoder/hots/:type?": [
+    "xia0ne"
+  ],
+  "/nowcoder/interview/:jobId": [
+    "xia0ne"
   ],
   "/nowcoder/jobcenter/:recruitType?/:city?/:type?/:order?/:latest?": [
     "nczitzk"
