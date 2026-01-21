@@ -417,7 +417,6 @@ export type RoutePath =
   | `/bupt/jwc/:type`
   | `/bupt/rczp`
   | `/bupt/scss/tzgg`
-  | `/bvisness/blog`
   | `/bwsg*`
   | `/byau/news/:type_id`
   | `/byteclicks/`
