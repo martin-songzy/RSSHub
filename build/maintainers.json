@@ -7711,9 +7711,6 @@
   "/skysports/news/:team": [
     "nczitzk"
   ],
-  "/slashdot/:section?": [
-    "TonyRL"
-  ],
   "/slowmist/:type?": [
     "AtlasQuan"
   ],
@@ -8606,9 +8603,6 @@
   ],
   "/tynu/": [
     "2PoL"
-  ],
-  "/typeless/changelog": [
-    "TonyRL"
   ],
   "/typora/changelog/dev": [
     "nczitzk"
