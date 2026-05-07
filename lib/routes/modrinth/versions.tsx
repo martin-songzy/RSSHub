@@ -112,7 +112,7 @@ async function handler(ctx: Context) {
                 game_versions: parsedQuery.has('game_versions') ? JSON.stringify(parsedQuery.getAll('game_versions')) : '',
             },
         });
-        const authors = await ofetch<Author[]>(`https://api.modrinth.com/v2/users`, {
+        const authors = await ofetch<Author[]>('https://api.modrinth.com/v2/users', {
             query: {
                 ids: JSON.stringify([...new Set(versions.map((it) => it.author_id))]),
             },
@@ -140,7 +140,7 @@ async function handler(ctx: Context) {
         };
     } catch (error: any) {
         if (error?.response?.statusCode === 404) {
-            throw new Error(`${error.message}: Project ${id} not found`);
+            throw new Error(`${error.message}: Project ${id} not found`, { cause: error });
         }
         throw error;
     }

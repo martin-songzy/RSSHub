@@ -1,5 +1,5 @@
 import { config } from '@/config';
-import type { Route } from '@/types';
+import type { DataItem, Route } from '@/types';
 import { ViewType } from '@/types';
 import got from '@/utils/got';
 import { parseDate } from '@/utils/parse-date';
@@ -81,7 +81,13 @@ export const route: Route = {
         keyword: 'Keyword, empty by default',
     },
     features: {
-        requireConfig: false,
+        requireConfig: [
+            {
+                name: 'FANTIA_COOKIE',
+                optional: true,
+                description: 'The `cookie` after login can be obtained by viewing the request header in the console, If not filled in will cause some posts that require login to read to get exceptions',
+            },
+        ],
         requirePuppeteer: false,
         antiCrawler: false,
         supportBT: false,
@@ -163,7 +169,7 @@ async function handler(ctx) {
         },
     });
 
-    let items = {};
+    let items: DataItem[];
 
     switch (type) {
         case 'fanclubs':
